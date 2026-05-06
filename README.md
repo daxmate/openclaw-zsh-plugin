@@ -4,12 +4,14 @@ Tiny Oh My Zsh plugin with aliases for common [OpenClaw](https://openclaw.ai) te
 
 Because typing `openclaw gateway restart` sixteen times a week builds character, but not the useful kind.
 
+> Forked from [pdubost/openclaw-zsh-plugin](https://github.com/pdubost/openclaw-zsh-plugin) — aliases shortened from `oc*` to `o*` for even faster typing.
+
 ## Install
 
 Clone this repo into your Oh My Zsh custom plugins folder:
 
 ```zsh
-git clone https://github.com/pdubost/openclaw-zsh-plugin.git \
+git clone https://github.com/dax/openclaw-zsh-plugin.git \
   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/openclaw
 ```
 
@@ -31,59 +33,61 @@ source ~/.zshrc
 
 | Alias | Command |
 | --- | --- |
-| `oc` | `openclaw` |
-| `oct` | `openclaw tui` |
-| `ocs` | `openclaw status` |
-| `ocsd` | `openclaw status --deep` |
-| `ocd` | `openclaw doctor` |
-| `ocl` | `openclaw logs` |
-| `oclf` | `openclaw logs --follow` |
+| `o` | `openclaw` |
+| `ot` | `openclaw tui` |
+| `os` | `openclaw status` |
+| `osd` | `openclaw status --deep` |
+| `od` | `openclaw dashboard` |
+| `odc` | `openclaw doctor` |
+| `ol` | `openclaw logs` |
+| `olf` | `openclaw logs --follow` |
 
 ### Gateway
 
 | Alias | Command |
 | --- | --- |
-| `ocg` | `openclaw gateway` |
-| `ocgr` | `openclaw gateway restart` |
+| `og` | `openclaw gateway` |
+| `ogr` | `openclaw gateway restart` |
 
 ### Cron / tasks
 
 | Alias | Command |
 | --- | --- |
-| `occ` | `openclaw cron` |
-| `occl` | `openclaw cron list` |
-| `octm` | `openclaw tasks maintenance` |
-| `octma` | `openclaw tasks maintenance --apply` |
+| `ocr` | `openclaw cron` |
+| `ocl` | `openclaw cron list` |
+| `otm` | `openclaw tasks maintenance` |
+| `otma` | `openclaw tasks maintenance --apply` |
 
 ### Updates
 
 | Alias | Command |
 | --- | --- |
-| `ocu` | `openclaw update` |
-| `ocud` | `openclaw update --dry-run` |
+| `ou` | `openclaw update` |
+| `oud` | `openclaw update --dry-run` |
 
 ### Security / diagnostics
 
 | Alias | Command |
 | --- | --- |
-| `oca` | `openclaw security audit` |
-| `ocad` | `openclaw security audit --deep` |
+| `oa` | `openclaw security audit` |
+| `oad` | `openclaw security audit --deep` |
 
 ### Onboarding / config
 
 | Alias | Command |
 | --- | --- |
-| `ocon` | `openclaw onboard` |
-| `occfg` | `cd ~/.openclaw` |
-| `ocjson` | `${EDITOR:-nano} ~/.openclaw/openclaw.json` |
+| `oon` | `openclaw onboard` |
+| `oc` | `openclaw configure` |
+| `ocd` | `cd ~/.openclaw` |
+| `oej` | `${EDITOR:-nano} ~/.openclaw/openclaw.json` |
 
 ### Models / memory
 
 | Alias | Command |
 | --- | --- |
-| `ocm` | `openclaw models` |
-| `ocml` | `openclaw models auth login` |
-| `ocms` | `openclaw memory status` |
+| `om` | `openclaw models` |
+| `oml` | `openclaw models auth login` |
+| `oms` | `openclaw memory status` |
 
 ## Notes
 
