@@ -27,6 +27,20 @@ Reload your shell:
 source ~/.zshrc
 ```
 
+### Zinit (alternative)
+
+If you use [zinit](https://github.com/zdharma-continuum/zinit), add this to your `~/.zshrc`:
+
+```zsh
+zinit light dax/openclaw-zsh-plugin
+```
+
+Then reload your shell:
+
+```zsh
+source ~/.zshrc
+```
+
 ## Aliases
 
 ### Core
