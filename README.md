@@ -11,7 +11,7 @@ Because typing `openclaw gateway restart` sixteen times a week builds character,
 Clone this repo into your Oh My Zsh custom plugins folder:
 
 ```zsh
-git clone https://github.com/dax/openclaw-zsh-plugin.git \
+git clone https://github.com/daxmate/openclaw-zsh-plugin.git \
   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/openclaw
 ```
 
@@ -32,7 +32,7 @@ source ~/.zshrc
 If you use [zinit](https://github.com/zdharma-continuum/zinit), add this to your `~/.zshrc`:
 
 ```zsh
-zinit light dax/openclaw-zsh-plugin
+zinit light daxmate/openclaw-zsh-plugin
 ```
 
 Then reload your shell:
