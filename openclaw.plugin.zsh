@@ -2,40 +2,42 @@
 # Handy aliases for common OpenClaw CLI commands.
 
 # Core
-alias oc='openclaw'
-alias oct='openclaw tui'
-alias ocs='openclaw status'
-alias ocsd='openclaw status --deep'
-alias ocd='openclaw doctor'
-alias ocl='openclaw logs'
-alias oclf='openclaw logs --follow'
+alias o='openclaw'
+alias ot='openclaw tui'
+alias os='openclaw status'
+alias osd='openclaw status --deep'
+alias odc='openclaw doctor'
+alias ol='openclaw logs'
+alias olf='openclaw logs --follow'
+alias od='openclaw dashboard'
 
 # Gateway
-alias ocg='openclaw gateway'
-alias ocgr='openclaw gateway restart'
+alias og='openclaw gateway'
+alias ogr='openclaw gateway restart'
 
 # Cron / tasks
-alias occ='openclaw cron'
-alias occl='openclaw cron list'
-alias octm='openclaw tasks maintenance'
-alias octma='openclaw tasks maintenance --apply'
+alias ocr='openclaw cron'
+alias ocl='openclaw cron list'
+alias otm='openclaw tasks maintenance'
+alias otma='openclaw tasks maintenance --apply'
 
 # Updates
-alias ocu='openclaw update'
-alias ocud='openclaw update --dry-run'
+alias ou='openclaw update'
+alias oud='openclaw update --dry-run'
 
 # Security / diagnostics
-alias oca='openclaw security audit'
-alias ocad='openclaw security audit --deep'
+alias oa='openclaw security audit'
+alias oad='openclaw security audit --deep'
 
 # Onboarding / config
-alias ocon='openclaw onboard'
-alias occfg='cd ~/.openclaw'
-alias ocjson='${EDITOR:-nano} ~/.openclaw/openclaw.json'
+alias oon='openclaw onboard'
+alias oc='openclaw configure'
+alias ocd='cd ~/.openclaw'
+alias oej='${EDITOR:-nano} ~/.openclaw/openclaw.json'
 
 # Models
-alias ocm='openclaw models'
-alias ocml='openclaw models auth login'
+alias om='openclaw models'
+alias oml='openclaw models auth login'
 
 # Memory
-alias ocms='openclaw memory status'
+alias oms='openclaw memory status'
