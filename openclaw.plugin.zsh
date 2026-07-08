@@ -7,9 +7,13 @@ alias ot='openclaw tui'
 alias os='openclaw status'
 alias osd='openclaw status --deep'
 alias odc='openclaw doctor'
+alias odf='openclaw doctor --fix'
 alias ol='openclaw logs'
 alias olf='openclaw logs --follow'
 alias od='openclaw dashboard'
+
+# Agents
+alias oal='openclaw agents list'
 
 # Gateway
 alias og='openclaw gateway'
