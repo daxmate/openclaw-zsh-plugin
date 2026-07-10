@@ -45,3 +45,7 @@ alias oml='openclaw models auth login'
 
 # Memory
 alias oms='openclaw memory status'
+
+# Skills
+alias osi='openclaw skills install'
+alias osig='openclaw skills install --global'
