@@ -18,6 +18,7 @@ alias oal='openclaw agents list'
 # Gateway
 alias og='openclaw gateway'
 alias ogr='openclaw gateway restart'
+alias ogs='openclaw gateway start'
 
 # Cron / tasks
 alias ocr='openclaw cron'
